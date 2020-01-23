@@ -8,7 +8,7 @@
              x:Class="partner.Views.Reproductor.ReproductorView">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-            <Label Text="Reproductor de Video Youtube!" HorizontalTextAlignment="Center" />
+            <Label Text="Reproductor de Video Youtube Azure!" HorizontalTextAlignment="Center" />
             <WebView Margin="5"
                      HeightRequest="200"
                      Source="{Binding LinkVideo}"/>
